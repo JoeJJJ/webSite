@@ -20,5 +20,12 @@ public class Test {
     public void test(){
         System.out.println("测试类打印！");
         userController.add();
+
+        for (int i = 9 ; i > 0; i--) {
+            System.out.println("i = " + i);
+        }
+
     }
+
+
 }
